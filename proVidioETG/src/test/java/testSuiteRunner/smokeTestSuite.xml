@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Providio Smoke Test">
+
+	 <test name="SmokeTest">
+        <classes>
+			<class name="browser.launchBrowsering"/>
+			
+			<class name="testScripts.HomePageTests"/>
+			 <methods>
+                    <include name="VerifingMegaMenuSelectionInHomePage" />
+                    <include name="VerifingSignInLinkInHomePage" />
+                    <include name="VerifingWishListLinkInHomePage" />
+                    <include name="VerifingUserLoginInHomePage" />
+                    <include name="VerifingUserLogOutInHomePage" />
+                    <include name="VerifingSearchFunctionalityInHomePage" />
+                    <include name="VerifingMIniCartBtnClickInHomePage" />
+                </methods>
+              <class name="testScripts.FooterSectionTests"/>
+			 <methods>
+                    <include name="VerifingGiftCardLinkInFooter" />
+             </methods>   
+			<class name="testScripts.ProductListingPageTest"/>
+			<methods>
+				 <include name="VerifingSortByFunctionalityInPLP" />
+			     <include name="VerifingFiltersFunctionalityInPLP" />
+                 <include name="VerifingResetFunctionalityInPLP" />
+			     <include name="VerifingaddToWishListFunctionalityInPLP" />
+			     <include name="VerifingQuickshopBtnFunctionalityInPLP" />
+			     <include name="VerifingProductLinkFunctionalityInPLP" />
+			 </methods>
+			 <class name="testScripts.ProductDetailPageTest"/>
+		     <methods>
+				 <include name="VerifingWishlistFunctionalityInPDP" />
+			     <include name="VerifingAddtoCartFunctionalityInPDP" />
+			 </methods>
+			  <class name="testScripts.MiniCartPageTests"/>
+		     <methods>
+				 <include name="VerifingViewCartBtnClickInMiniCart" />
+			     <include name="VerifingCheckOutBtnClickInMiniCart" />
+			 </methods>
+			 <class name="testScripts.ViewCartPageTests"/>
+		     <methods>
+				 <include name="VerifingCheckOutBtnClickInViewCart" />
+			 </methods>
+			 <class name="testScripts.CheckOutPageTests"/>
+		     <methods>
+				 <include name="VerifingGuestLoginFuncitonalityInCheckOutPage" />
+			 </methods>
+			 <class name="testScripts.ShippingAddressPageTests"/>
+		     <methods>
+				 <include name="VerifingEnteredtheShippingAddressInShippingPage" />
+			 </methods>
+			 <class name="testScripts.PaymentPageTests"/>
+		     <methods>
+				 <include name="VerifyingCreditcardWithValidDetails" />
+			 </methods>
+			 <class name="testScripts.ReviewOrderTest"/>
+		     <methods>
+				 <include name="VerifyingPlaceOrderButtonClickInReviewOrderPage" />
+			 </methods> 
+			 <class name="testScripts.OrderRegressionTest"/>
+		     <methods>
+				 <include name="verifyingOrderIsPlacingWithCreditCardInGuestUser" />
+				 <include name="verifyingOrderIsPlacingWithGiftCardInGuestUser" />
+				 <include name="verifyingOrderIsPlacingWithPaypalFromCheckoutPageInGuestUser" />				 
+			 </methods>		
+			
+			<class name="testScripts.MyAccountPageTests"/>
+			 <methods>
+                    <include name="VerifingMyAccount" />
+                    <include name="VerifingMyOrder" />
+             </methods> 
+          <class name="testScripts.CreateAccountPageTest"/>
+			 <methods>
+                    <include name="VerifingCreateAccountLinkInLoginPage" />
+                    <include name="VerifyingCrateAccountwithValidDetatisOnCreatingAccountPage" />
+             </methods> 
+             <class name="testScripts.ContactUsPageTests"/>
+		     <methods>
+				 <include name="VerifingContactUsFuncitonalityInContactUs" />
+			</methods> 
+        </classes>
+    </test>
+</suite>

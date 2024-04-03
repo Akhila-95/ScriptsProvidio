@@ -1,0 +1,600 @@
+<html>
+<head>
+<title>TestNG:  SmokeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SmokeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>104/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 23 15:34:37 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1736 seconds (1736720 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifyingErrorMessageInvalidPhoneNumberInCreatingAccountPage()'><b>VerifyingErrorMessageInvalidPhoneNumberInCreatingAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>13</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingEditCustomerEmailInShippingAddressPage()'><b>VerifyingEditCustomerEmailInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>11</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingProductLinkFunctionalityInPLP()'><b>VerifingProductLinkFunctionalityInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>11</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingMoveToWishlistLinkInViewCart()'><b>VerifingMoveToWishlistLinkInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>7</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingInvaidEmailInPOPUPForgotPasswordInCheckOutPage()'><b>VerifingInvaidEmailInPOPUPForgotPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>6</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingWithEnteringRatingandSubmitFormInPDP()'><b>VerifingWithEnteringRatingandSubmitFormInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>4</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingValidShippingAddressInShippingAddressPage()'><b>VerifyingValidShippingAddressInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>27</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingInvalidEmailandInvalidPasswordInCheckOutPage()'><b>VerifingInvalidEmailandInvalidPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>11</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifyingCrateAccountwithValidDetatisOnCheckOutpage()'><b>VerifyingCrateAccountwithValidDetatisOnCheckOutpage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>31</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingFiltersFunctionalityInPLP()'><b>VerifingFiltersFunctionalityInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>9</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingAttributesInQuickshopModalInPLP()'><b>VerifingAttributesInQuickshopModalInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>7</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifyingErrorMessageMailAlreadyExistsInCreatingAccountPage()'><b>VerifyingErrorMessageMailAlreadyExistsInCreatingAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>17</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingEmptyEmailInputandClickonContinueAsGuestBtnInCheckOutPage()'><b>VerifingEmptyEmailInputandClickonContinueAsGuestBtnInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>6</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingWithEnteringRatingHeadingandSubmitFormInPDP()'><b>VerifingWithEnteringRatingHeadingandSubmitFormInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>5</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingWithoutEnteringDetailsandSubmitTheReivewFormInPDP()'><b>VerifingWithoutEnteringDetailsandSubmitTheReivewFormInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>10</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingBackToCartInShippingAddressPage()'><b>VerifyingBackToCartInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>55</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.MiniCartPageTests.VerifingCloseBtnInMiniCart()'><b>VerifingCloseBtnInMiniCart</b><br>Test class: testScripts.MiniCartPageTests</td>
+<td></td>
+<td>7</td>
+<td>testScripts.MiniCartPageTests@321ca237</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifyingErrorMessageMailAlreadyExistsInCreatingAccOnCheckOutpage()'><b>VerifyingErrorMessageMailAlreadyExistsInCreatingAccOnCheckOutpage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>15</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingWithEnteringRatingHeadingcommentsandSubmitFormInPDP()'><b>VerifingWithEnteringRatingHeadingcommentsandSubmitFormInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>7</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingFirstNameFieldErrorInShippingAddressPage()'><b>VerifyingFirstNameFieldErrorInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>10</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingCustomInputInEditPOPUPInViewCart()'><b>VerifingCustomInputInEditPOPUPInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>7</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingOrderSummeryInShippingAddressPage()'><b>VerifyingOrderSummeryInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingNextbuttonCaurosalFunctionalityInPDP()'><b>VerifingNextbuttonCaurosalFunctionalityInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>3</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingInvalidEmailandEmptyPasswordInCheckOutPage()'><b>VerifingInvalidEmailandEmptyPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>10</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.MiniCartPageTests.VerifingRemoveBtnInMiniCart()'><b>VerifingRemoveBtnInMiniCart</b><br>Test class: testScripts.MiniCartPageTests</td>
+<td></td>
+<td>20</td>
+<td>testScripts.MiniCartPageTests@321ca237</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingWriteaReviewFunctionalityInPDP()'><b>VerifingWriteaReviewFunctionalityInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>20</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingbreadCrumbsFunctionalityInPDP()'><b>VerifingbreadCrumbsFunctionalityInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>6</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingEtgLogoInShippingAddressPage()'><b>VerifyingEtgLogoInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingAddressFieldErrorInShippingAddressPage()'><b>VerifyingAddressFieldErrorInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>14</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingaddToWishListFunctionalityInPLP()'><b>VerifingaddToWishListFunctionalityInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>11</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingShippingAddressPageLoadingInShippingPage()'><b>VerifyingShippingAddressPageLoadingInShippingPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>46</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingAttributesinEditPOPUpInViewCart()'><b>VerifingAttributesinEditPOPUpInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>40</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.MiniCartPageTests.VerifingCustomInputInMiniCart()'><b>VerifingCustomInputInMiniCart</b><br>Test class: testScripts.MiniCartPageTests</td>
+<td></td>
+<td>7</td>
+<td>testScripts.MiniCartPageTests@321ca237</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingAddtoCartInQuickshopModalInPLP()'><b>VerifingAddtoCartInQuickshopModalInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>42</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingSignUpLinkInCheckOutPage()'><b>VerifingSignUpLinkInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>9</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingSortByFunctionalityInPLP()'><b>VerifingSortByFunctionalityInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>19</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='browser.launchBrowsering.VerifingHomePageLaunching()'><b>VerifingHomePageLaunching</b><br>Test class: browser.launchBrowsering</td>
+<td></td>
+<td>4</td>
+<td>browser.launchBrowsering@71a3e05c</td></tr>
+<tr>
+<td title='testScripts.HomePageTests.VerifingWishListLinkInHomePage()'><b>VerifingWishListLinkInHomePage</b><br>Test class: testScripts.HomePageTests</td>
+<td></td>
+<td>11</td>
+<td>testScripts.HomePageTests@3d9f5016</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingAddtoCartFunctionalityInPDP()'><b>VerifingAddtoCartFunctionalityInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>36</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingContinueShoppingLinkInViewCart()'><b>VerifingContinueShoppingLinkInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>29</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.LoginPageTest.VerifyingLoginFailureWithEmptyEmail()'><b>VerifyingLoginFailureWithEmptyEmail</b><br>Test class: testScripts.LoginPageTest</td>
+<td></td>
+<td>7</td>
+<td>testScripts.LoginPageTest@72b6832e</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingEmptyPromoCodeInViewCart()'><b>VerifingEmptyPromoCodeInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>25</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingInvaidEmailInputandClickonContinueAsGuestBtnInCheckOutPage()'><b>VerifingInvaidEmailInputandClickonContinueAsGuestBtnInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>7</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingEmptyEmailandPasswordInCheckOutPage()'><b>VerifingEmptyEmailandPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>38</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifyingErrorMessagePasswordStrengthInCreatingAccountPage()'><b>VerifyingErrorMessagePasswordStrengthInCreatingAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>19</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingValidEmailInPOPUPForgotPasswordInCheckOutPage()'><b>VerifingValidEmailInPOPUPForgotPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>13</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingAttriubuteSelectionFunctionalityInPDP()'><b>VerifingAttriubuteSelectionFunctionalityInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>6</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.LoginPageTest.VerifyingLoginFailureWithIncorrectCredentials()'><b>VerifyingLoginFailureWithIncorrectCredentials</b><br>Test class: testScripts.LoginPageTest</td>
+<td></td>
+<td>5</td>
+<td>testScripts.LoginPageTest@72b6832e</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingProductlinkInCheckOutPage()'><b>VerifingProductlinkInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>23</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.MiniCartPageTests.VerifingCheckOutBtnClickInMiniCart()'><b>VerifingCheckOutBtnClickInMiniCart</b><br>Test class: testScripts.MiniCartPageTests</td>
+<td></td>
+<td>29</td>
+<td>testScripts.MiniCartPageTests@321ca237</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingShippingAddressFormInShippingAddressPage()'><b>VerifyingShippingAddressFormInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>24</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifyingErrorMessagePasswordMissMatchInCreatingAccountPage()'><b>VerifyingErrorMessagePasswordMissMatchInCreatingAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>17</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingemptyEmailandInvalidPasswordInCheckOutPage()'><b>VerifingemptyEmailandInvalidPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>10</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingInvalidPromoCodeInViewCart()'><b>VerifingInvalidPromoCodeInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>6</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingPhoneNumberFieldErrorInShippingAddressPage()'><b>VerifyingPhoneNumberFieldErrorInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>14</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingRemoveInViewCart()'><b>VerifingRemoveInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>7</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifyingCrateAccountwithValidDetatisOnCreatingAccountPage()'><b>VerifyingCrateAccountwithValidDetatisOnCreatingAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>20</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifyingErrorMessageEMailMissMatchInCreatingAccountPage()'><b>VerifyingErrorMessageEMailMissMatchInCreatingAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>17</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingCustomInputInViewCart()'><b>VerifingCustomInputInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>8</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingCloseBtnInQuickshopModalInPLP()'><b>VerifingCloseBtnInQuickshopModalInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>5</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingResetFunctionalityInPLP()'><b>VerifingResetFunctionalityInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>16</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingEditPOPUPCloseBtnInViewCart()'><b>VerifingEditPOPUPCloseBtnInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>7</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifyingErrorMessageInvalidEmailInCreatingAccountPage()'><b>VerifyingErrorMessageInvalidEmailInCreatingAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>17</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingQuickshopBtnFunctionalityInPLP()'><b>VerifingQuickshopBtnFunctionalityInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>14</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingGuestLoginFuncitonalityInCheckOutPage()'><b>VerifingGuestLoginFuncitonalityInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>20</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingGetCustomerInformationInShippingAddressPage()'><b>VerifyingGetCustomerInformationInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifyingErrorMessagePasswordStrengthInCreatingAccOnCheckOutpage()'><b>VerifyingErrorMessagePasswordStrengthInCreatingAccOnCheckOutpage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>17</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.FooterSectionTests.VerifingGiftCardLinkInFooter()'><b>VerifingGiftCardLinkInFooter</b><br>Test class: testScripts.FooterSectionTests</td>
+<td></td>
+<td>9</td>
+<td>testScripts.FooterSectionTests@7e91ed74</td></tr>
+<tr>
+<td title='testScripts.HomePageTests.VerifingSearchFunctionalityInHomePage()'><b>VerifingSearchFunctionalityInHomePage</b><br>Test class: testScripts.HomePageTests</td>
+<td></td>
+<td>12</td>
+<td>testScripts.HomePageTests@3d9f5016</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifyingErrorMessageEMailMissMatchInCreatingAccOnCheckOutpage()'><b>VerifyingErrorMessageEMailMissMatchInCreatingAccOnCheckOutpage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>15</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingEditPOPUPUpdateBtnInViewCart()'><b>VerifingEditPOPUPUpdateBtnInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>6</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingForgotPasswordLinkInCheckOutPage()'><b>VerifingForgotPasswordLinkInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>97</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifingCreateAccountLinkInLoginPage()'><b>VerifingCreateAccountLinkInLoginPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>16</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.MiniCartPageTests.VerifingViewCartBtnClickInMiniCart()'><b>VerifingViewCartBtnClickInMiniCart</b><br>Test class: testScripts.MiniCartPageTests</td>
+<td></td>
+<td>20</td>
+<td>testScripts.MiniCartPageTests@321ca237</td></tr>
+<tr>
+<td title='testScripts.CreateAccountPageTest.VerifingEmptyFormInCreateAccountPage()'><b>VerifingEmptyFormInCreateAccountPage</b><br>Test class: testScripts.CreateAccountPageTest</td>
+<td></td>
+<td>5</td>
+<td>testScripts.CreateAccountPageTest@4570d7b6</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingClickonBacktoCartInCheckOutPage()'><b>VerifingClickonBacktoCartInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>40</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.LoginPageTest.VerifyingLoginFailureWithInvalidEmailFormat()'><b>VerifyingLoginFailureWithInvalidEmailFormat</b><br>Test class: testScripts.LoginPageTest</td>
+<td></td>
+<td>3</td>
+<td>testScripts.LoginPageTest@72b6832e</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifyingErrorMessagesWithoutEnteringAnyDetailsInCreatingAccOnCheckOutpage()'><b>VerifyingErrorMessagesWithoutEnteringAnyDetailsInCreatingAccOnCheckOutpage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>3</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingWithEnteringRatingHeadingcommentnicknamesandSubmitFormInPDP()'><b>VerifingWithEnteringRatingHeadingcommentnicknamesandSubmitFormInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>8</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.LoginPageTest.VerifyingLoginWithValidCredentials()'><b>VerifyingLoginWithValidCredentials</b><br>Test class: testScripts.LoginPageTest</td>
+<td></td>
+<td>7</td>
+<td>testScripts.LoginPageTest@72b6832e</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingClickonGuestCheckoutBtnInCheckOutPage()'><b>VerifingClickonGuestCheckoutBtnInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>91</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.LoginPageTest.VerifyingLoginFailureWithEmptyEmailAndPassword()'><b>VerifyingLoginFailureWithEmptyEmailAndPassword</b><br>Test class: testScripts.LoginPageTest</td>
+<td></td>
+<td>43</td>
+<td>testScripts.LoginPageTest@72b6832e</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingEditBtnInViewCart()'><b>VerifingEditBtnInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>9</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingCheckOutBtnClickInViewCart()'><b>VerifingCheckOutBtnClickInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>17</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingCustomInputFunctionalityInPDP()'><b>VerifingCustomInputFunctionalityInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>5</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingViewFullDetailsInQuickshopModalInPLP()'><b>VerifingViewFullDetailsInQuickshopModalInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>3</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingValidEmailandPasswordInCheckOutPage()'><b>VerifingValidEmailandPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>27</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.LoginPageTest.VerifyingLoginFailureWithEmptyPassword()'><b>VerifyingLoginFailureWithEmptyPassword</b><br>Test class: testScripts.LoginPageTest</td>
+<td></td>
+<td>7</td>
+<td>testScripts.LoginPageTest@72b6832e</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifyingErrorMessagePasswordMissMatchInCreatingAccOnCheckOutpage()'><b>VerifyingErrorMessagePasswordMissMatchInCreatingAccOnCheckOutpage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>15</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.ContactUsPageTests.VerifingContactUsFuncitonalityInContactUs()'><b>VerifingContactUsFuncitonalityInContactUs</b><br>Test class: testScripts.ContactUsPageTests</td>
+<td></td>
+<td>15</td>
+<td>testScripts.ContactUsPageTests@3878be7b</td></tr>
+<tr>
+<td title='testScripts.ViewCartPageTests.VerifingSelectShippingMethodInViewCart()'><b>VerifingSelectShippingMethodInViewCart</b><br>Test class: testScripts.ViewCartPageTests</td>
+<td></td>
+<td>71</td>
+<td>testScripts.ViewCartPageTests@4c5a2baf</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingNextPaymentButtonInShippingAddressPage()'><b>VerifyingNextPaymentButtonInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.HomePageTests.VerifingSignInLinkInHomePage()'><b>VerifingSignInLinkInHomePage</b><br>Test class: testScripts.HomePageTests</td>
+<td></td>
+<td>11</td>
+<td>testScripts.HomePageTests@3d9f5016</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingProductClickInShippingAddressPage()'><b>VerifyingProductClickInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>10</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingLastNameFieldErrorInShippingAddressPage()'><b>VerifyingLastNameFieldErrorInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>15</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+<tr>
+<td title='testScripts.ProductListingPageTest.VerifingCustomInputQuantityInQuickshopModalInPLP()'><b>VerifingCustomInputQuantityInQuickshopModalInPLP</b><br>Test class: testScripts.ProductListingPageTest</td>
+<td></td>
+<td>5</td>
+<td>testScripts.ProductListingPageTest@318c68d5</td></tr>
+<tr>
+<td title='testScripts.HomePageTests.VerifingMIniCartBtnClickInHomePage()'><b>VerifingMIniCartBtnClickInHomePage</b><br>Test class: testScripts.HomePageTests</td>
+<td></td>
+<td>28</td>
+<td>testScripts.HomePageTests@3d9f5016</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifingEmptyEmailInPOPUPForgotPasswordInCheckOutPage()'><b>VerifingEmptyEmailInPOPUPForgotPasswordInCheckOutPage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>5</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.CheckOutPageTests.VerifyingErrorMessageInvalidPhoneNumberInCreatingAccOnCheckOutpage()'><b>VerifyingErrorMessageInvalidPhoneNumberInCreatingAccOnCheckOutpage</b><br>Test class: testScripts.CheckOutPageTests</td>
+<td></td>
+<td>11</td>
+<td>testScripts.CheckOutPageTests@1ec22831</td></tr>
+<tr>
+<td title='testScripts.LogOutTest.verifyLogout()'><b>verifyLogout</b><br>Test class: testScripts.LogOutTest</td>
+<td></td>
+<td>17</td>
+<td>testScripts.LogOutTest@3850e90c</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingProductDetailsInPDP()'><b>VerifingProductDetailsInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>0</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.HomePageTests.VerifingMegaMenuSelectionInHomePage()'><b>VerifingMegaMenuSelectionInHomePage</b><br>Test class: testScripts.HomePageTests</td>
+<td></td>
+<td>12</td>
+<td>testScripts.HomePageTests@3d9f5016</td></tr>
+<tr>
+<td title='testScripts.ProductDetailPageTest.VerifingWishlistFunctionalityInPDP()'><b>VerifingWishlistFunctionalityInPDP</b><br>Test class: testScripts.ProductDetailPageTest</td>
+<td></td>
+<td>6</td>
+<td>testScripts.ProductDetailPageTest@4cfa83f9</td></tr>
+<tr>
+<td title='testScripts.ShippingAddressPageTests.VerifyingEmptyFormInShippingAddressPage()'><b>VerifyingEmptyFormInShippingAddressPage</b><br>Test class: testScripts.ShippingAddressPageTests</td>
+<td></td>
+<td>2</td>
+<td>testScripts.ShippingAddressPageTests@63f855b</td></tr>
+</table><p>
+</body>
+</html>

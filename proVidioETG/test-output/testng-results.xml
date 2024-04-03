@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="40" total="42" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T15:54:55 IST" name="Providio Smoke Test" finished-at="2024-04-01T15:55:31 IST" duration-ms="35774">
+    <groups>
+      <group name="regression">
+        <method signature="ProductDetailPageTest.VerifingWishlistFunctionalityInPDP()[pri:0, instance:testScripts.ProductDetailPageTest@3e2d8623]" name="VerifingWishlistFunctionalityInPDP" class="testScripts.ProductDetailPageTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-04-01T15:54:55 IST" name="SmokeTest" finished-at="2024-04-01T15:55:31 IST" duration-ms="35774">
+      <class name="browser.launchBrowsering">
+        <test-method is-config="true" signature="setUpforReport()[pri:0, instance:browser.launchBrowsering@347123dc]" started-at="2024-04-01T15:54:55 IST" name="setUpforReport" finished-at="2024-04-01T15:54:55 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpforReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:browser.launchBrowsering@347123dc]" started-at="2024-04-01T15:54:55 IST" name="setUp" finished-at="2024-04-01T15:54:55 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:browser.launchBrowsering@347123dc]" started-at="2024-04-01T15:54:55 IST" name="afterClass" finished-at="2024-04-01T15:54:55 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void browser.launchBrowsering.VerifingHomePageLaunching() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method signature="VerifingHomePageLaunching()[pri:0, instance:browser.launchBrowsering@347123dc]" started-at="2024-04-01T15:54:55 IST" name="VerifingHomePageLaunching" finished-at="2024-04-01T15:55:03 IST" duration-ms="7508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifingHomePageLaunching -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:browser.launchBrowsering@347123dc]" started-at="2024-04-01T15:55:03 IST" name="afterMethod" finished-at="2024-04-01T15:55:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifingHomePageLaunching status=SUCCESS method=launchBrowsering.VerifingHomePageLaunching()[pri:0, instance:browser.launchBrowsering@347123dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browser.launchBrowsering@347123dc]" started-at="2024-04-01T15:55:31 IST" name="tearDown" finished-at="2024-04-01T15:55:38 IST" duration-ms="7047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browser.launchBrowsering -->
+      <class name="testScripts.ProductDetailPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testScripts.ProductDetailPageTest@3e2d8623]" started-at="2024-04-01T15:55:03 IST" name="setUp" finished-at="2024-04-01T15:55:03 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="afterClass(java.lang.reflect.Method)[pri:0, instance:testScripts.ProductDetailPageTest@3e2d8623]" started-at="2024-04-01T15:55:03 IST" name="afterClass" finished-at="2024-04-01T15:55:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.ProductDetailPageTest.VerifingWishlistFunctionalityInPDP() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method signature="VerifingWishlistFunctionalityInPDP()[pri:0, instance:testScripts.ProductDetailPageTest@3e2d8623]" started-at="2024-04-01T15:55:03 IST" name="VerifingWishlistFunctionalityInPDP" finished-at="2024-04-01T15:55:31 IST" duration-ms="28130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifingWishlistFunctionalityInPDP -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.ProductDetailPageTest@3e2d8623]" started-at="2024-04-01T15:55:31 IST" name="afterMethod" finished-at="2024-04-01T15:55:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifingWishlistFunctionalityInPDP status=SUCCESS method=ProductDetailPageTest.VerifingWishlistFunctionalityInPDP()[pri:0, instance:testScripts.ProductDetailPageTest@3e2d8623] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testScripts.ProductDetailPageTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- Providio Smoke Test -->
+</testng-results>

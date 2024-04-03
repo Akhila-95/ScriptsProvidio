@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Providio Smoke Test">
+
+	 <test name="SmokeTest">
+	
+        <classes>
+			<class name="browser.launchBrowsering"/>
+			
+ 			 <class name="testScripts.ProductDetailPageTest"/>
+		     <methods>
+				 <include name="VerifingWishlistFunctionalityInPDP" />
+			     
+			 </methods>           
+			
+
+     	</classes>
+     	
+    </test>
+</suite>
+

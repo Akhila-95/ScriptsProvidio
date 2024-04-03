@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Providio Regression Test">
+
+	 <test name="Order Regression">
+       
+     <classes>
+   
+			<class name="browser.launchBrowsering"/>
+	 
+		     	<class name="testScripts.OrderRegressionTest"/>
+		     		<methods>
+		     			/*------------- register user-------------------*/
+		     			<!-- <include name="VerifyingOrderIsPlacingWithCreditCardInRegisterUser"/>
+		     			<include name="VerifyingOrderIsPlacingWithGiftCardInRegisterUser"/>	
+		 			    <include name="VerifyingOrderIsPlacingWithCombinationOfGcAndCreditCardInRegisterUser"/>	  					 
+						
+						<include name="VerifyingOrderIsPlacingWithCombinationOfGcAndPaypalInRegisterUser"/> -->	-->							
+					   	<include name="VerifyingOrderIsPlacingWithMiniCartPaypalInRegisterUser"/>  
+					 	<include name="VerifyingOrderIsPlacingWithCartPagePaypalInRegisterUser"/>				 
+				  		<include name="VerifyingOrderIsPlacingWithPaypalBuyNowInPdpPageInRegisterUser"/>	
+						<include name="VerifyingOrderIsPlacingWithPaypalFromCheckoutPageInRegisterUser"/> 	  		
+				  		/*--------------guest user-----------------------*/
+				  <!--		<include name="verifyingOrderIsPlacingWithCreditCardInGuestUser"/> 			  				
+					    <include name="verifyingOrderIsPlacingWithGiftCardInGuestUser"/>	 	-->
+					  	<include name="verifyingOrderIsPlacingWithPaypalFromCheckoutPageInGuestUser"/>	  					
+				  	<!--  	<include name="verifyingOrderIsPlacingWithCombinationOfGcAndCreditCardInGuestUser"/>										
+					    <include name="verifyingOrderIsPlacingWithCombinationOfGcAndPaypalInGuestUser"/>	-->					 
+						<include name="verifyingOrderIsPlacingWithMiniCartPaypalInGuestUser"/>
+			  	   		<include name="verifyingOrderIsPlacingWithCartPagePaypalInGuestUser"/>	
+					    <include name="verifyingOrderIsPlacingWithPaypalBuyNowInPdpPageInGuestUser"/> 
+					    
+		     		</methods>
+		     		
+		     		
+		     	
+    </classes>	
+ 
+    </test>
+</suite>

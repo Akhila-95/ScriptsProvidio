@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Providio Regression Test]">
+  <test thread-count="5" name="Providio Regression Test(failed)">
+    <classes>
+      <class name="testScripts.ProductListingPageTest">
+        <methods>
+          <include name="VerifingShowFiltersFunctionalityInPLP"/>
+          <include name="VerifingCustomInputQuantityInQuickshopModalInPLP"/>
+          <include name="VerifingResetFunctionalityInPLP"/>
+          <include name="VerifingBreadCrumbsFunctionalityInPLP"/>
+          <include name="VerifingaddToWishListFunctionalityInPLP"/>
+          <include name="VerifingViewFullDetailsInQuickshopModalInPLP"/>
+          <include name="VerifingProductLinkFunctionalityInPLP"/>
+          <include name="VerifingRefreshInPLP_AfterApplyingTheFilters"/>
+          <include name="tearDown"/>
+          <include name="VerifingAddtoCartInQuickshopModalInPLP"/>
+          <include name="afterMethod"/>
+          <include name="VerifingQuickshopBtnFunctionalityInPLP"/>
+          <include name="VerifingDefaultAsBestMatchesInPLP"/>
+          <include name="VerifingAttributesInQuickshopModalInPLP"/>
+          <include name="VerifyingCarouselsInQuickShop"/>
+          <include name="VerifingSortByFunctionalityInPLP"/>
+          <include name="VerifingFiltersFunctionalityInPLP"/>
+          <include name="VerifingCloseBtnInQuickshopModalInPLP"/>
+          <include name="setUpforReport"/>
+          <include name="VerifingRemoveFromWishListFunctionalityInPLP"/>
+          <include name="VerifingHideFiltersFunctionalityInPLP"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.ProductListingPageTest -->
+      <class name="testScripts.ShippingAddressPageTests">
+        <methods>
+          <include name="VerifyingCharacterLimitInAddress1And2InShippingAddressPageInGuestUser"/>
+          <include name="VerifyingEmptyFormInShippingAddressPage"/>
+          <include name="VerifyingEtgLogoInShippingAddressPage"/>
+          <include name="VerifyingAddressFieldErrorInShippingAddressPage"/>
+          <include name="VerifyingEditCustomerEmailInShippingAddressPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyingValidShippingAddressInShippingAddressPage"/>
+          <include name="VerifyingProductClickInShippingAddressPage"/>
+          <include name="VerifyingShippingAddressFormInShippingAddressPage"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingShippingAddressPageLoadingInShippingPage"/>
+          <include name="VerifyingBackToCartInShippingAddressPage"/>
+          <include name="VerifyingGetCustomerInformationInShippingAddressPage"/>
+          <include name="VerifyingPhoneNumberFieldErrorInShippingAddressPage"/>
+          <include name="VerifyingFirstNameFieldErrorInShippingAddressPage"/>
+          <include name="VerifyingNextPaymentButtonInShippingAddressPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingShippingAddressRegUserInShippingAddressPage"/>
+          <include name="VerifyingOrderSummeryInShippingAddressPage"/>
+          <include name="afterClass"/>
+          <include name="VerifyingLastNameFieldErrorInShippingAddressPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.ShippingAddressPageTests -->
+      <class name="testScripts.MyAccountPageEditProileTests">
+        <methods>
+          <include name="VerifingEditprofileCancelInMyAccountPage"/>
+          <include name="VerifingEditprofilelinkInMyAccountPage"/>
+          <include name="VerifingEditprofileInvalidEmailInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifingEditprofileEmptyFormInMyAccountPage"/>
+          <include name="VerifingEditprofileHomeInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifingEditprofileInvalidPhoneNumberInMyAccountPage"/>
+          <include name="VerifingEditprofileMyAccountlinkInMyAccountPage"/>
+          <include name="VerifingEditprofilePWDmissMatchInMyAccountPage"/>
+          <include name="VerifingEditprofileValidDetalsInMyAccountPage"/>
+          <include name="VerifingEditprofileBackToMyAccountInMyAccountPage"/>
+          <include name="afterClass"/>
+          <include name="VerifingEditprofileEmailMissMatchInMyAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageEditProileTests -->
+      <class name="testScripts.ProductSetTest">
+        <methods>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="verifyingThePlaceOrderOfProductSet"/>
+        </methods>
+      </class> <!-- testScripts.ProductSetTest -->
+      <class name="testScripts.LogOutTest">
+        <methods>
+          <include name="verifyLogout"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.LogOutTest -->
+      <class name="testScripts.MyAccountPageGiftCardsTests">
+        <methods>
+          <include name="VerifyingGiftCardBelongstoDifferentCustomerInputInMyAccountPage"/>
+          <include name="VerifyingGiftCardsBlockViewInMyAccountPage"/>
+          <include name="VerifyingGiftCardsEmptyInputInMyAccountPage"/>
+          <include name="VerifyingGiftCardsValidInputInMyAccountPage"/>
+          <include name="VerifyingGiftCardsCheckBalanceInvalidInputInMyAccountPage"/>
+          <include name="VerifyingGiftCardsInsufficientInputInMyAccountPage"/>
+          <include name="VerifyingGiftCardsCheckBalanceValidInputInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingGiftCardsCheckBalanceEmptyInputInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="VerifyingGiftCardsCheckBalanceInsufficientInputInMyAccountPage"/>
+          <include name="VerifyingGiftCardsInvalidInputInMyAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageGiftCardsTests -->
+      <class name="testScripts.OrderRegressionTest">
+        <methods>
+          <include name="VerifyingOrderIsPlacingWithCombinationOfGcAndPaypalInRegisterUser"/>
+          <include name="VerifyingOrderIsPlacingWithCombinationOfGcAndCreditCardInRegisterUser"/>
+          <include name="verifyingOrderIsPlacingWithMiniCartPaypalInGuestUser"/>
+          <include name="VerifyingOrderIsPlacingWithPaypalBuyNowInPdpPageInRegisterUser"/>
+          <include name="verifyingOrderIsPlacingWithPaypalBuyNowInPdpPageInGuestUser"/>
+          <include name="verifyingOrderIsPlacingWithCombinationOfGcAndPaypalInGuestUser"/>
+          <include name="verifyingOrderIsPlacingWithCartPagePaypalInGuestUser"/>
+          <include name="VerifyingOrderIsPlacingWithGiftCardInRegisterUser"/>
+          <include name="verifyingOrderIsPlacingWithCreditCardInGuestUser"/>
+          <include name="verifyingOrderIsPlacingWithPaypalFromCheckoutPageInGuestUser"/>
+          <include name="VerifyingOrderIsPlacingWithCreditCardInRegisterUser"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingOrderIsPlacingWithCartPagePaypalInRegisterUser"/>
+          <include name="verifyingOrderIsPlacingWithGiftCardInGuestUser"/>
+          <include name="VerifyingOrderIsPlacingWithPaypalFromCheckoutPageInRegisterUser"/>
+          <include name="verifyingOrderIsPlacingWithCombinationOfGcAndCreditCardInGuestUser"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingOrderIsPlacingWithMiniCartPaypalInRegisterUser"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.OrderRegressionTest -->
+      <class name="testScripts.BuyNowTest">
+        <methods>
+          <include name="VerifyingPlaceOrderWithBuyNowPopUp"/>
+          <include name="VerifyingPlaceOrderWithBuyNowButton"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingTheEnableOfBuyNowButtonAfterSelectingTheAttributes"/>
+          <include name="VerifyingTheDisplayOfCreditCardInBuyNowPopAndSameInOrderConfirmationPage"/>
+          <include name="afterClass"/>
+          <include name="VerifyingTheTotalPriceInBuyNowPopUpWhetherItIsCalculatingTheTax"/>
+          <include name="VerifyingThePurchaseFromBuyNowPopUpByClosingIt"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.BuyNowTest -->
+      <class name="testScripts.PaymentPageGiftCerificationTests">
+        <methods>
+          <include name="VerifyingSuccesMessageForValidGcApplied"/>
+          <include name="VerifyingDifferentGcUserInPaymentPage"/>
+          <include name="VerifyingInvalidGcErrorMsgInPaymentPage"/>
+          <include name="VerifyingGiftCardsCheckBalanceInvalidInputInPaymentPage"/>
+          <include name="VerifyingInsufficientGcInPaymentPage"/>
+          <include name="VerifyingGiftCardsCheckBalanceInsufficientInputInPaymentPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingEmptyGiftInPaymentPage"/>
+          <include name="VerifyingGiftCardsCheckBalanceEmptyInputInPaymentPage"/>
+          <include name="VerifyingGiftCardsCheckBalanceValidInputInPaymentPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingRemoveGcInPaymentPage"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.PaymentPageGiftCerificationTests -->
+      <class name="testScripts.CheckOutPageTests">
+        <methods>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_Email_CEmail_PWDsInCreatingAccOnCheckOutpage"/>
+          <include name="VerifyingCrateAccountwithValidDetatisOnCheckOutpage"/>
+          <include name="VerifingClickonGuestCheckoutBtnInCheckOutPage"/>
+          <include name="VerifyingErrorMessageMailAlreadyExistsInCreatingAccOnCheckOutpage"/>
+          <include name="VerifingEmptyEmailInputandClickonContinueAsGuestBtnInCheckOutPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LNameInCreatingAccOnCheckOutpage"/>
+          <include name="VerifingInvalidEmailandInvalidPasswordInCheckOutPage"/>
+          <include name="VerifingemptyEmailandInvalidPasswordInCheckOutPage"/>
+          <include name="VerifingEmptyEmailandPasswordInCheckOutPage"/>
+          <include name="VerifingEmptyEmailInPOPUPForgotPasswordInCheckOutPage"/>
+          <include name="VerifingClickonBacktoCartInCheckOutPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifingInvalidEmailandEmptyPasswordInCheckOutPage"/>
+          <include name="VerifingGuestLoginFuncitonalityInCheckOutPage"/>
+          <include name="VerifingInvaidEmailInputandClickonContinueAsGuestBtnInCheckOutPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_EmailInCreatingAccOnCheckOutpage"/>
+          <include name="VerifingValidEmailandPasswordInCheckOutPage"/>
+          <include name="VerifingProductlinkInCheckOutPage"/>
+          <include name="VerifyingErrorMessagePasswordStrengthInCreatingAccOnCheckOutpage"/>
+          <include name="VerifingForgotPasswordLinkInCheckOutPage"/>
+          <include name="VerifyingErrorMessageEMailMissMatchInCreatingAccOnCheckOutpage"/>
+          <include name="VerifingValidEmailInPOPUPForgotPasswordInCheckOutPage"/>
+          <include name="VerifyingErrorMessagePasswordMissMatchInCreatingAccOnCheckOutpage"/>
+          <include name="VerifyingErrorMessagesEnterFNameInCreatingAccOnCheckOutpage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_Email_CEmailInCreatingAccOnCheckOutpage"/>
+          <include name="VerifyingErrorMessageInvalidPhoneNumberInCreatingAccOnCheckOutpage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_PhoneInCreatingAccOnCheckOutpage"/>
+          <include name="VerifyingErrorMessagesWithoutEnteringAnyDetailsInCreatingAccOnCheckOutpage"/>
+          <include name="VerifingInvaidEmailInPOPUPForgotPasswordInCheckOutPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifingSignUpLinkInCheckOutPage"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.CheckOutPageTests -->
+      <class name="testScripts.MyAccountPageCreditCardTests">
+        <methods>
+          <include name="VerifyingStripeCreditCardExpDateErrorInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardFormPageInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardPaymentlPageBackToMyAccountLinkInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardFormPageHomeLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardPaymentlPageBackToMyAccountLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardPaymentlPageHomeLinkInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardEmptyFormInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardFormPageInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardPaymentlPageHomeLinkInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardCancelButtonInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardInvalidCardNumberInkInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingCyberSourceCreditCardFormPagePaymentLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardValidDeatilsAndSubmitFormInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardExpDateInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardPaymentlPageRemovePOPUPCancelbtnLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardCVVErrorInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardEnterNameandNumberFormInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardNameInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardAlreadyHaveCreditCardInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardEnterNameFormInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardPaymentlPageHomeMyAccountLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardEmptyFormInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardViewLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardPaymentlPageRemovePOPUPCancelbtnLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardFormPageHomeLinkInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardFormInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardPaymentlPageHomeMyAccountLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardFormPagePaymentLinkInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardPaymentlPageRemovePOPUPOKbtnLinkInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardViewLinkInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardNumberInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardFormPageCancelBtnInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardPaymentlPageRemovePOPUPOKbtnLinkInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardValidDetailsFormInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardEmptyFormInkInMyAccountPage"/>
+          <include name="VerifyingStripeCreditCardFormPageMyAccountLinkInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardFormPageCancelBtnInkInMyAccountPage"/>
+          <include name="VerifyingBrainTreeCreditCardEnterNameNumberandCvvFormInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardValidDeatilsAndSubmitFormInkInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingStripeCreditCardInvalidCardNumberInkInMyAccountPage"/>
+          <include name="afterClass"/>
+          <include name="VerifyingStripeCreditCardPostalCodeErrorInkInMyAccountPage"/>
+          <include name="VerifyingCyberSourceCreditCardFormPageMyAccountLinkInkInMyAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageCreditCardTests -->
+      <class name="testScripts.MyAccountPageAddressBookTests">
+        <methods>
+          <include name="VerifingAddressBookBackToMyAccountInMyAccountPage"/>
+          <include name="VerifyingMakeOneAddressAsaDefaultAddressInAddressBookPageInMyAccountPage"/>
+          <include name="VerifingAddressBookHomeInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingViewAddressBookInMyAccountPage"/>
+          <include name="VerifingAddressBookMyAccountlinkInMyAccountPage"/>
+          <include name="VerifyingDeleteOneAddressformAddressBookPageInMyAccountPage"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingRemoveAddressCancelButtonEditAddressPageInMyAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageAddressBookTests -->
+      <class name="testScripts.FindAStoreTest">
+        <methods>
+          <include name="VerifyingChangeInStoreInCartPage"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="VerifyingTheInventoryCheckInPdpPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="VerifyingPlaceOrderOfPickUpStoreAndDeliveryToAddressProductAsRegisterUser"/>
+        </methods>
+      </class> <!-- testScripts.FindAStoreTest -->
+      <class name="testScripts.ContactUsPageTests">
+        <methods>
+          <include name="VerifyingTheInvalidErrorMessageWhileSubmission_InContactUs"/>
+          <include name="VerifyingTheCloseOfContactUsAfterSubmittingTheCase"/>
+          <include name="VerifyingTheCloseButtonOnContactUs"/>
+          <include name="VerifyingTheSubmissionOfCaseInContactUs"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingContactUsFuncitonalityInContactUs"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyingTheErrorMessagesInEmptyFieldSubmissionInContactUs"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.ContactUsPageTests -->
+      <class name="testScripts.SearchFunctionalityTest">
+        <methods>
+          <include name="VerifyingWhetherTheCharactersOrDataAreRemovedAfterClickingOnRemoveSymbol"/>
+          <include name="VerifyingWhetherAbleToEnterTheDataInSearchBar"/>
+          <include name="VerifyingWhetherUserAbleToSeeTheSuggestionsWhenThreeCharactersEnterInTheSearchBar"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingWhetherSearchedProductIsRedirectingToPDP_Page"/>
+          <include name="VerifyingWhetherSearchedProductIsRedirectingToCategory_Page"/>
+          <include name="VerifyingWhetherTheErrorMessageOrSearchTipsAreDisplayingWhenUserClicksOnSearchIcon"/>
+          <include name="VerifyingTheClickOnSearchBar"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.SearchFunctionalityTest -->
+      <class name="testScripts.OrderDetailsTests">
+        <methods>
+          <include name="VerifyingTheCreatingAccountWithNewMailFromOrderConfirmationPage"/>
+          <include name="VerifyingTheErrorMessageWhileCreatingAccountWithExistingEmail"/>
+          <include name="VerifyingTheMismatchErrorMessageInOrderConfirmationPageForCreatingAccount"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="VerifyingTheEmptyFieldErrorInOrderConfirmationPageForCreatingAccount"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.OrderDetailsTests -->
+      <class name="testScripts.CreateAccountPageTest">
+        <methods>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_Email_CEmail_PWDsInCreatingAcc"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_Email_CEmailInCreatingAcc"/>
+          <include name="VerifyingErrorMessageEMailMissMatchInCreatingAccountPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_EmailInCreatingAcc"/>
+          <include name="VerifingCreateAccountLinkInLoginPage"/>
+          <include name="VerifingEmptyFormInCreateAccountPage"/>
+          <include name="VerifyingErrorMessagesEnterFNameInCreatingAcc"/>
+          <include name="VerifyingErrorMessageMailAlreadyExistsInCreatingAccountPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyingErrorMessageInvalidEmailInCreatingAccountPage"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LNameInCreatingAcc"/>
+          <include name="VerifyingCreateAccountwithSpecialCharactersOnCreatingAccountPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_PhoneInCreatingAcc"/>
+          <include name="VerifyingErrorMessagePasswordStrengthInCreatingAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingErrorMessageInvalidPhoneNumberInCreatingAccountPage"/>
+          <include name="VerifyingCrateAccountwithValidDetatisOnCreatingAccountPage"/>
+          <include name="afterClass"/>
+          <include name="VerifyingErrorMessagePasswordMissMatchInCreatingAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.CreateAccountPageTest -->
+      <class name="testScripts.ScorcherDealTest">
+        <methods>
+          <include name="VerifyingAddingTheScorcherDealproductFromHomePageAndSameProductFromPdpPageVerifyingThePrice"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.ScorcherDealTest -->
+      <class name="testScripts.MyAccountPagePaypalTest">
+        <methods>
+          <include name="VerifyingTheMakeDefaultPaymentOfPaypalAccountInMyAccountInBrainTree"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingTheAddingOfPaypalInMyAccountInBrainTree"/>
+          <include name="VerifyingTheRemovalOfPaypalAccountInMyAccountInBrainTree"/>
+          <include name="VerifyingTheDisplayOfPaypalSectionAndAddNewButton_Etc_InMyAccountInBrainTree"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPagePaypalTest -->
+      <class name="testScripts.HomePageTests">
+        <methods>
+          <include name="VerifingSearchFunctionalityInHomePage"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="VerifingSignInLinkInHomePage"/>
+          <include name="VerifingMIniCartBtnClickInHomePage"/>
+          <include name="VerifingWishListLinkInHomePage"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.HomePageTests -->
+      <class name="testScripts.PaymentPageTests">
+        <methods>
+          <include name="VerifyingPaymentInfoDisplayInPaymentPage"/>
+          <include name="VerifyingCvvErrorInCreditCard"/>
+          <include name="VerifyingCharacterLimitInBillingAddressForAddress1And2InPaymentPage"/>
+          <include name="VerifyingPaginationOfProductsInPaymentPage"/>
+          <include name="VerifyingTheCustomerInfoInPaymntPage"/>
+          <include name="VerifyingCreditCardNumberInCompleteError"/>
+          <include name="VerifyingOrderSummaryDisplayInPaymentPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyingBackToCartInPaymentPage"/>
+          <include name="VerifyingCreditCardInCompleteExpYearError"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingEtgLogoDisplayInPaymentPage"/>
+          <include name="VerifyingCreditcardNumberInValidError"/>
+          <include name="VerifyingCreditcardWithValidDetails"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingCreditCardExpDateInValid"/>
+          <include name="VerifyingAllTheErrorsInCreditCard"/>
+          <include name="afterClass"/>
+          <include name="VerifyingCreditCardInCompleteCvvError"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.PaymentPageTests -->
+      <class name="testScripts.WishlistPageTests">
+        <methods>
+          <include name="VerifyingHomeLinkinWishListPage"/>
+          <include name="VerifyingselectAttributespopupUpdateButtoninWishListPage"/>
+          <include name="VerifyingRemoveFromWishListinWishListPage"/>
+          <include name="VerifyingselectAttributesLinkinWishListPage"/>
+          <include name="VerifyingLoginWithValidCredentialsInWishListPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LNameInCreatingAccOnWishListPage"/>
+          <include name="VerifyingErrorMessagePasswordStrengthInWishListPage"/>
+          <include name="VerifyingLoginFailureWithIncorrectCredentialsInWishListPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_PhoneInCreatingAccOnWishListPage"/>
+          <include name="VerifyingEditLinkinWishListPage"/>
+          <include name="VerifingEmptyEmailInPOPUPForgotPasswordInWishListPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyingselectAttributesClosebuttoninWishListPage"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingEditpopupUpdateButtoninWishListPage"/>
+          <include name="VerifyingLoginFailureWithEmptyEmailInWishListPage"/>
+          <include name="VerifyingLoginFailureWithInvalidEmailFormatInWishListPage"/>
+          <include name="VerifyingMoreButtonClickInWishlist"/>
+          <include name="VerifingEmptyFormInWishListPage"/>
+          <include name="VerifyingAddtocartButtoninWishListPage"/>
+          <include name="VerifyingLoginFailureWithEmptyPasswordInWishListPage"/>
+          <include name="VerifyingErrorMessagesEnterFNameInCreatingAccOnWishListPage"/>
+          <include name="VerifingValidEmailInPOPUPForgotPasswordInWishListPage"/>
+          <include name="VerifingForgotPasswordLinkInWishListPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_Email_CEmailInCreatingAccOnWishListPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_EmailInCreatingAccOnWishListPage"/>
+          <include name="VerifingCreateAccountLinkInWishListPage"/>
+          <include name="VerifingInvaidEmailInPOPUPForgotPasswordInWishListPage"/>
+          <include name="VerifyingEditClosebuttoninWishListPage"/>
+          <include name="VerifyingCustomInputinWishListPage"/>
+          <include name="VerifyingCrateAccountwithValidDetatisInWishListPage"/>
+          <include name="VerifyingErrorMessageEMailMissMatchInWishListPage"/>
+          <include name="VerifyingErrorMessageMailAlreadyExistsInWishListPage"/>
+          <include name="VerifyingErrorMessagePasswordMissMatchInWishListPage"/>
+          <include name="VerifyingEditpopupAttributesinWishListPage"/>
+          <include name="VerifyingProductsinWishList"/>
+          <include name="VerifyingErrorMessageInvalidPhoneNumberInWishListPage"/>
+          <include name="VerifyingErrorMessagesEnter_FName_LName_Phone_Email_CEmail_PWDsInCreatingAccOnWishListPage"/>
+          <include name="VerifyingErrorMessageInvalidEmailInWishListPage"/>
+          <include name="VerifyingLoginFailureWithEmptyEmailAndPasswordInWishListPage"/>
+          <include name="VerifyingselectAttributespopupAttributesinWishListPage"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.WishlistPageTests -->
+      <class name="testScripts.MyAccountPageWishListTests">
+        <methods>
+          <include name="VerifyingCopyLinkOnWishlistInMyAccountPage"/>
+          <include name="VerifyingGmailLinkOnWishlistInMyAccountPage"/>
+          <include name="VerifyingAddtocartButtonOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingselectAttributespopupUpdateButtonOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingEditLinkOnWishListPageInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyingMyAccountLinkOnWishlistPageInMyAccountPage"/>
+          <include name="VerifyingCustomInputOnWishListPageInMyAccountPage"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingselectAttributesLinkOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingEditClosebuttonOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingReoveFuctionalityOnWishListInMyAccountPage"/>
+          <include name="VerifyingEditpopupUpdateButtonOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingRemoveFromWishListOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingPintersetsLinkOnWishlistInMyAccountPage"/>
+          <include name="VerifyingHomeLinkOnWishlistPageInMyAccountPage"/>
+          <include name="VerifyingEditpopupAttributesOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingTwitterLinkOnWishlistInMyAccountPage"/>
+          <include name="VerifyingselectAttributesClosebuttonOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingFacebookLinkOnWishlistInMyAccountPage"/>
+          <include name="VerifyingselectAttributespopupAttributesOnWishListPageInMyAccountPage"/>
+          <include name="VerifyingBackToMyAccountLinkOnWishlistPageInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingViewLinkOnWishListInMyAccountPage"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageWishListTests -->
+      <class name="testScripts.MyAccountPageAddNewAddressPageFromABTests">
+        <methods>
+          <include name="VerifyingAddNewAddressPageEmptyFormFromAddressBookInMyAccountPage"/>
+          <include name="VerifingCancelButtonAddNewAddressPageFromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageFirstNameErrorFromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageAddress1FromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddressBookLinkInAddNewAddressPageFromAddressBookInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifingHomePageLinkAddNewAddressPageFromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageAddressTitleAlreadyExistsErrorFromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageAddressTitleErrorFromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageViewFromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageValidDetailsFromAddressBookInMyAccountPage"/>
+          <include name="VerifingBackToMyAccountAddNewAddressPageFromAddressBookInMyAccountPage"/>
+          <include name="VerifingMyAccountLinkInAddNewAddressPageFromAddressBookInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="VerifyingAddNewAddressPageLastNameErrorFromAddressBookInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPagePhoneErrorFromAddressBookInMyAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageAddNewAddressPageFromABTests -->
+      <class name="testScripts.MiniCartPageTests">
+        <methods>
+          <include name="VerifingCheckOutBtnClickInMiniCart"/>
+          <include name="VerifingViewCartBtnClickInMiniCart"/>
+          <include name="VerifingEstimatedCostInMiniCart"/>
+          <include name="VerifingRemoveBtnInMiniCart"/>
+          <include name="VerifingCallToActionOfPaypalInMiniCart"/>
+          <include name="setUpforReport"/>
+          <include name="VerifingCustomInputInMiniCart"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifingCloseBtnInMiniCart"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.MiniCartPageTests -->
+      <class name="testScripts.MyAccountPageTests">
+        <methods>
+          <include name="setUpforReport"/>
+          <include name="VerifingMyAccount"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageTests -->
+      <class name="testScripts.EditPaymentsFromReviewOrderPageTest">
+        <methods>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromPaypalToCombinationOfGiftCertificateAndCreditCard"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromCreditCardToCombinationOfGiftCertificateAndPaypal"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromGiftCertificateToPaypal"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromPaypalToGiftCertificateAndPaypal"/>
+          <include name="tearDown"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromCombinationOfGiftCertificateAndCreditCardToGiftCertificate"/>
+          <include name="afterMethod"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromCombinationOfGiftCertificateAndCreditCardToCreditCard"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromCreditCardToGiftCertificate"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromCombinationOfGiftCertificateAndPaypalToGiftCertificate"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromPaypalToCreditCard"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromPaypalToGiftCertificate"/>
+          <include name="setUpforReport"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromCreditCardToPaypal"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromGiftCertificateToCreditCard"/>
+          <include name="afterClass"/>
+          <include name="verifyingTheEditInPaymentInReviewOrderPageFromCombinationOfGiftCertificateAndPaypalToPaypal"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.EditPaymentsFromReviewOrderPageTest -->
+      <class name="testScripts.ProductDetailPageTest">
+        <methods>
+          <include name="VerifingAttriubuteSelectionFunctionalityInPDP"/>
+          <include name="VerifingWishlistFunctionalityInPDP"/>
+          <include name="VerifyingYoptoReviesFormwithStarSelectionInPDP"/>
+          <include name="VerifingWithEnteringRatingHeadingcommentsandSubmitFormInPDP"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingYoptoReviesFormwithStarSelectionandTitleInPDP"/>
+          <include name="VerifyingCarouselsInRecommendationsInPDP_Page"/>
+          <include name="VerifingWithoutEnteringDetailsandSubmitTheReivewFormInPDP"/>
+          <include name="VerifyingShareLinkInPDP_Page"/>
+          <include name="VerifingPowerReviewsPageByClickingOnWrite_A_Review"/>
+          <include name="VerifingNextbuttonCaurosalFunctionalityInPDP"/>
+          <include name="VerifingCustomInputFunctionalityInPDP"/>
+          <include name="VerifingWithEnteringRatingHeadingcommentnicknamesandSubmitFormInPDP"/>
+          <include name="VerifyingRecommendationsInPDP_Page"/>
+          <include name="VerifingAddtoCartFunctionalityInPDP"/>
+          <include name="VerifyingYoptoReviesValidDetailsandSubmitFormInPDP"/>
+          <include name="VerifingWithEnteringRatingHeadingandSubmitFormInPDP"/>
+          <include name="VerifingProductDetailsInPDP"/>
+          <include name="VerifingbreadCrumbsFunctionalityInPDP"/>
+          <include name="VerifyingYoptoReviesFormwithStarSelection_Title_Content_UserNameInPDP"/>
+          <include name="VerifyingYoptoReviesFormwithStarSelection_Title_ContentInPDP"/>
+          <include name="VerifyingRefreshInPDP_Page"/>
+          <include name="setUpforReport"/>
+          <include name="VerifingWriteaReviewFunctionalityInPDP"/>
+          <include name="VerifingWithEnteringRatingandSubmitFormInPDP"/>
+          <include name="VerifyingYoptoReviesEmptyFormInPDP"/>
+          <include name="afterClass"/>
+          <include name="VerifyingYoptoReviesFormInPDP"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.ProductDetailPageTest -->
+      <class name="testScripts.FooterPageTest">
+        <methods>
+          <include name="VerifyingValidEmailInSighUpBoxInFooter"/>
+          <include name="VerifyingResourceFooterLinks"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.FooterPageTest -->
+      <class name="testScripts.GiftCertificateTest">
+        <methods>
+          <include name="VerifyErrorMsgsInGiftCard"/>
+          <include name="VerifyGiftCardToCart"/>
+          <include name="VerifyErrorsForConfirmMail"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="VerifytheErrorsFromName_Recipients_confirmRecipientEMail"/>
+          <include name="tearDown"/>
+          <include name="VerifyTheErrorsRecipientEmailAndConfirmEmail"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.GiftCertificateTest -->
+      <class name="testScripts.ReviewOrderTest">
+        <methods>
+          <include name="VerifyingPaginationOfProductsInReviewOrderPage"/>
+          <include name="VerifyingTheEditBillingAddressFromReviewOrderPageAndPlaceOrder"/>
+          <include name="VerifyingPlaceOrderButtonDisplayInReviewOrderPage"/>
+          <include name="VerifyingTheEditShippingAddressFromReviewOrderPageAndPlaceOrder"/>
+          <include name="VerifyingEtgLogoDisplayInReviewOrderPage"/>
+          <include name="VerifyingOrderSummaryDisplayInReviewOrderPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingPaymentInfoDisplayInReviewOrderPage"/>
+          <include name="VerifyingEditPhoneNumberInBillingAddressFromReviewOrderPageAndPlaceOrder"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingTheDisplayOfCustomerInfoInReviewOrderPage"/>
+          <include name="afterClass"/>
+          <include name="VerifyingTheEditPhoneNumInShippingAddressFromReviewOrderPageAndPlaceOrder"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.ReviewOrderTest -->
+      <class name="testScripts.MyAccountPageAddNewAddressTests">
+        <methods>
+          <include name="VerifyingAddNewAddressPageFirstNameErrorInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPagePhoneErrorInMyAccountPage"/>
+          <include name="VerifingAddNewAddressPageBackToMyAccountInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageAddressBookLInkInMyAccountPage"/>
+          <include name="VerifingAddNewAddressPageMyAccountlinkInMyAccountPage"/>
+          <include name="VerifingAddNewAddressPageHomeInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingAddNewAddressPageLastNameErrorInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageAddressTitleAlreadyExistsErrorInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageAddressTitleErrorInMyAccountPage"/>
+          <include name="VerifingAddNewAddressPageCancelInMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageAddress1InMyAccountPage"/>
+          <include name="VerifyingAddNewAddressPageEmptyFormInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingAddNewAddressPageViewInMyAccountPage"/>
+          <include name="afterClass"/>
+          <include name="VerifyingAddNewAddressPageValidDetailsInMyAccountPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageAddNewAddressTests -->
+      <class name="testScripts.ViewCartPageTests">
+        <methods>
+          <include name="VerifingTheDisplayOfPaypalButtonInCartPage"/>
+          <include name="VerifingEditBtnInViewCart"/>
+          <include name="VerifingAttributesinEditPOPUpInViewCart"/>
+          <include name="VerifingTheDisplayOfCheckOutButtonInCartPage"/>
+          <include name="VerifingCustomInputInEditPOPUPInViewCart"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifingEmptyPromoCodeInViewCart"/>
+          <include name="VerifingEditPOPUPUpdateBtnInViewCart"/>
+          <include name="VerifingTheSubTotalWithAllTheProductsCostlInCartPage"/>
+          <include name="VerifingMoveToWishlistLinkInViewCart"/>
+          <include name="VerifingTheSalesTaxVaryWithQuantityIncreasInCartPage"/>
+          <include name="VerifingCheckOutBtnClickInViewCart"/>
+          <include name="VerifingInvalidPromoCodeInViewCart"/>
+          <include name="VerifingContinueShoppingLinkInViewCart"/>
+          <include name="VerifingTheDisplayOfshippingCost_SalesTax_SubTotal_EstimatedTotalInCartPage"/>
+          <include name="VerifingSelectShippingMethodInViewCart"/>
+          <include name="VerifingRemoveInViewCart"/>
+          <include name="VerifingTheDisplayOfPromoCodeInCartPage"/>
+          <include name="VerifingTheCallToActionOfPaymentInCartPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifingEditPOPUPCloseBtnInViewCart"/>
+          <include name="VerifingTheDisplayOfOrderSummaryInCartPage"/>
+          <include name="afterClass"/>
+          <include name="VerifingTheEstimatedTotalInCartPage"/>
+          <include name="VerifingCustomInputInViewCart"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.ViewCartPageTests -->
+      <class name="testScripts.LoginPageTest">
+        <methods>
+          <include name="VerifyingLoginFailureWithEmptyEmail"/>
+          <include name="VerifyingemptyemailforgotpasswordInLoginPage"/>
+          <include name="VerifyingLoginWithValidCredentials"/>
+          <include name="VerifyingLoginFailureWithEmptyEmailAndPassword"/>
+          <include name="VerifyingErroorMessageForInCorrectBillingZipCode"/>
+          <include name="VerifyingforgotpasswordInLoginPage"/>
+          <include name="VerifyingLoginFailureWithIncorrectCredentials"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingLoginFailureWithEmptyPassword"/>
+          <include name="VerifyingEmptyFieldErrorInCheckOrder"/>
+          <include name="VerifyingErrorMessageForInCompleteEmail"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingValidEmailforgotpasswordAndCloseThePopUpInLoginPage"/>
+          <include name="VerifyingErrorMessageForInvalidEmail"/>
+          <include name="VerifyingLoginFailureWithInvalidEmailFormat"/>
+          <include name="afterClass"/>
+          <include name="VerifyingCheckOrderWithValidDetails"/>
+          <include name="VerifyingInvalidEmailforgotpasswordInLoginPage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.LoginPageTest -->
+      <class name="testScripts.RefreshPageTest">
+        <methods>
+          <include name="VerifyingRefreshingOfPaymentPageAndCheckingTheReviewOrderButtonEnable"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.RefreshPageTest -->
+      <class name="testScripts.MyAccountPageChangePasswordTests">
+        <methods>
+          <include name="VerifyingChangePasswordEmptyFormInMyAccountPage"/>
+          <include name="VerifyingChangePasswordpassworddoesnotMatchwithCurrentUserInMyAccountPage"/>
+          <include name="VerifyingChangePasswordPageInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="VerifingchangePwdBackToMyAccountInMyAccountPage"/>
+          <include name="afterMethod"/>
+          <include name="VerifingchangePwdMyAccountlinkInMyAccountPage"/>
+          <include name="VerifyingChangechangepwdmissmatchInMyAccountPage"/>
+          <include name="VerifyingChangevalidPasswordInMyAccountPage"/>
+          <include name="VerifingchangePwdCancelInMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="VerifingchangePwdHomeInMyAccountPage"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageChangePasswordTests -->
+      <class name="testScripts.GiftCertificateScenariosInCartTest">
+        <methods>
+          <include name="VerifyingPlaceOrderWithPaypalWhenOnlyGcInCartInGuestUser"/>
+          <include name="VerifyingPlaceOrderOfGiftCertificateAndSimpleProductInCartWithPaypalInGuestUser"/>
+          <include name="VerifyingPlaceOrderWithCreditCardWhenOnlyGcInCartInRegisterUser"/>
+          <include name="VerifyingPlaceOrderOfGiftCertificateAndSimpleProductInCartWithCreditCardInRegisterUser"/>
+          <include name="VerifyingPlaceOrderWithPaypalWhenOnlyGcInCartInRegisterUser"/>
+          <include name="VerifyingNoVisibilityOfGiftCertificateSectionWhenGcInCartInGuestUser"/>
+          <include name="tearDown"/>
+          <include name="VerifyingPlaceOrderWithCreditCardWhenOnlyGcInCartInGuestUser"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingNoVisibilityOfGiftCertificateSectionWhenGcInCartInRegisterUser"/>
+          <include name="setUpforReport"/>
+          <include name="VerifyingPlaceOrderOfGiftCertificateAndSimpleProductInCartWithPaypalInRegisterUser"/>
+          <include name="afterClass"/>
+          <include name="VerifyingPlaceOrderOfGiftCertificateAndSimpleProductInCartWithCreditCardInGuestUser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.GiftCertificateScenariosInCartTest -->
+      <class name="testScripts.FooterSectionTests">
+        <methods>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="VerifingGiftCardLinkInFooter"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.FooterSectionTests -->
+      <class name="testScripts.MyAccountPageEditAddressPageTests">
+        <methods>
+          <include name="VerifyingEditAddressPageLastNameErrorInMyAccountPage"/>
+          <include name="VerifingeditAddressEditAddressBackToMyAccountInMyAccountPage"/>
+          <include name="VerifingeditAddressEditAddressHomeInMyAccountPage"/>
+          <include name="VerifingeditAddressEditAddressCancelInMyAccountPage"/>
+          <include name="VerifyingEditAddressPagePhoneErrorInMyAccountPage"/>
+          <include name="VerifingeditAddressEditAddressMyAccountlinkInMyAccountPage"/>
+          <include name="VerifyingEditAddressPageEmptyFormInMyAccountPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyingEditAddressAddressBookLInkInMyAccountPage"/>
+          <include name="VerifyingEditAddressPageFirstNameErrorInMyAccountPage"/>
+          <include name="afterMethod"/>
+          <include name="VerifyingEditAddressPageValidDetailsInMyAccountPage"/>
+          <include name="VerifyingEditAddressPageAddress1InMyAccountPage"/>
+          <include name="setUpforReport"/>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.MyAccountPageEditAddressPageTests -->
+    </classes>
+  </test> <!-- Providio Regression Test(failed) -->
+</suite> <!-- Failed suite [Providio Regression Test] -->
